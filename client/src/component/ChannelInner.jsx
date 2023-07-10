@@ -36,7 +36,9 @@ const ChannelInner = ({ setIsEditing }) => {
           <MessageList />
           <MessageInput overrideSubmitHandler={overrideSubmitHandler} />
         </Window>
-        <Thread />
+        <Thread/>
+        
+        
       </div>
     </GiphyContext.Provider>
   );
